@@ -112,7 +112,7 @@ const installNavigation = async name => {
 };
 
 const installPods = async name => {
-  let command = `cd ${name} && cd ios && pod install`;
+  let command = `cd ${name} && npm install && cd ios && pod install`;
   await executeCommand(command, "Installing Pods", "successfully Pods");
 };
 
