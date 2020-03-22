@@ -192,7 +192,7 @@ const run = async () => {
   }
 
   const details = await inquirer.askAboutProjectDetails();
-  //await createReactNativeProject(details.name);
+  await createReactNativeProject(details.name);
   await setupFolderStructure(details.name, details.features);
 
   if (hasFeatureOn(details.features, "translations")) {

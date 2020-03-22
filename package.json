@@ -1,6 +1,6 @@
 {
   "name": "fasky-cli",
-  "version": "1.0.4",
+  "version": "1.0.5",
   "description": "",
   "scripts": {
     "start": "node ./src/index.js",
