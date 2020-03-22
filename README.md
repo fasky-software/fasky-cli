@@ -18,14 +18,15 @@
 
 ## Table of Contents 📚
 
-- [Installation](#introduction)
-- [Usage](#usage)
-- [Features](#features)
-- [Contributors](#Contributors-)
+- [Installation 🔧](#introduction)
+- [Usage 💡](#usage)
+- [Features 🏷](#features)
+- [Development 💻](#development)
+- [Contributors 🤓](#Contributors-)
 
 ## Installation 🔧
 
-`npm install -g fasky`
+`npm install -g fasky-cli`
 
 ## Usage 💡
 
@@ -37,6 +38,13 @@ Creating a best practice React-Native project is easier than ever thanks to the 
 - Firebase integration (optional)
 - i18N translations (optional)
 - Navigation framework (optional)
+
+## Development 💻
+
+- Install `npm i -g @zeit/ncc`
+- Login to your publisher account e.g. `npm adduser fasky`
+- Compile project `ncc build src/index.js -o dist`
+- Publish to npm `npm run build`
 
 ## Contributors 🤓
 
